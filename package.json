@@ -1,9 +1,13 @@
 {
   "name": "ludus-globi",
   "description": "Welcome to Ludus Globi, where geography meets fun challenges and interactive learning! Embark on an exciting journey across the globe as you test your knowledge of flags, countries, capitals, and more.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
-  "author": {"name": "André Moura Santos", "email": "contato@andremourasantos.com.br", "url": "https://andremourasantos.com.br"},
+  "author": {
+    "name": "André Moura Santos",
+    "email": "contato@andremourasantos.com.br",
+    "url": "https://andremourasantos.com.br"
+  },
   "readme": "./readme.md",
   "type": "module",
   "scripts": {
@@ -14,6 +18,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@phosphor-icons/vue": "^2.1.6",
     "nuxt": "^3.10.3",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"
