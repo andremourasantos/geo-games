@@ -1,7 +1,7 @@
 {
   "name": "ludus-globi",
   "description": "Welcome to Ludus Globi, where geography meets fun challenges and interactive learning! Embark on an exciting journey across the globe as you test your knowledge of flags, countries, capitals, and more.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "author": {
     "name": "André Moura Santos",
@@ -14,6 +14,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "deploy-gh-pages": "gh-pages -d dist",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -22,5 +23,8 @@
     "nuxt": "^3.10.3",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

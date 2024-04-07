@@ -1,8 +1,10 @@
 <template>
   <header>
-    <section class="logo_container">
-      <img src="/favicon.png" alt="Ícone do globo." height="36">
-      <h1>Ludos Globi</h1>
+    <section>
+      <nuxt-link to="/" class="logo_container" title="Navegar para página inicial">
+        <img src="/favicon.png" alt="Ícone do globo." height="36">
+        <h1>Ludos Globi</h1>
+      </nuxt-link>
     </section>
 
     <nav>

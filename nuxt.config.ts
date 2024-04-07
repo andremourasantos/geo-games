@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
+    baseURL: '/ludus-globi/',
+    buildAssetsDir: 'assets',
     head: {
       title: "Ludus Globi",
       titleTemplate: "%s | Ludos Globi 🌎",

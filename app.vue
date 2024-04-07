@@ -13,7 +13,9 @@
 </script>
 
 <style>
-  /* body {
-    background-image: url('/assets/ilustrations/background.jpg');
-  } */
+  body {
+    background-image: url('/assets/ilustrations/background_map.svg');
+    background-size: cover;
+    background-blend-mode: darken;
+  }
 </style>
